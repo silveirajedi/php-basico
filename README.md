@@ -1,6 +1,6 @@
-#php - Básico
+# php - Básico
 
-######Códigos sobre o básico da linguagem PHP
+###### Códigos sobre o básico da linguagem PHP
 
 ### Criando o Ambiente com Docker:
 
