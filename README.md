@@ -21,6 +21,17 @@ docker container run -d -p 80:80 --name phpbasico -v $(pwd):/var/www/html php:7.
 docker container run -it -p 80:80 --name phpbasico -v $(pwd):/var/www/html php:7.4-apache /bin/bash
 ```
 
+- Instalar o Xdebug
+```bash
+pecl install xdebug
+```
+```bash
+echo "zend_extension=/usr/local/lib/php/extensions/no-debug-non-zts-20190902/xdebug.so" >> /usr/local/etc/php/php.ini-development
+```
+
+```bash
+mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
+```
 ### Glossário:
 
 - 001 - Introdução a estrutura do PHP
