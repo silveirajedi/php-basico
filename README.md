@@ -35,6 +35,8 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 ### Glossário:
 
 - 001 - Introdução a estrutura do PHP
+- 002 - Comandos Saídas
+- 003 - Tipos Variáveis
 
 ### Credits
 

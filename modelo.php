@@ -8,6 +8,7 @@
     <title>000 - Assunto</title>
 </head>
 <body>
+    <div style="background-color: gray;"><h2>Linha</h2></div>
     <?php
 
     ?>
