@@ -39,6 +39,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 003 - Tipos Variáveis
 - 004 - Operadores
 - 005 - Array e Vetores
+- 006 - Estruturas de Controles
 
 ### Credits
 
