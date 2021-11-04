@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>000 - Assunto</title>
 </head>
-<body>
+<body style="font-size: 1.1em">
     <div style="background-color: gray;"><h2>Linha</h2></div>
     <?php
 

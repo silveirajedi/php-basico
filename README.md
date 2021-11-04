@@ -38,6 +38,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 002 - Comandos Saídas
 - 003 - Tipos Variáveis
 - 004 - Operadores
+- 005 - Array e Vetores
 
 ### Credits
 
