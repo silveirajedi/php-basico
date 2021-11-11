@@ -41,6 +41,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 005 - Array e Vetores
 - 006 - Estruturas de Controles
 - 007 - Estruturas de Repetição
+- 008 - Closures e Generators
 
 ### Credits
 
