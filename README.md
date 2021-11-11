@@ -40,6 +40,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 004 - Operadores
 - 005 - Array e Vetores
 - 006 - Estruturas de Controles
+- 007 - Estruturas de Repetição
 
 ### Credits
 

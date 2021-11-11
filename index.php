@@ -15,6 +15,7 @@
     <li><a href="004.php">004 - Operadores</a></li>
     <li><a href="005.php">005 - Array e Vetores</a></li>
     <li><a href="006.php">006 - Estruturas de Controles</a></li>
+    <li><a href="007.php">007 - Estruturas de Repetição</a></li>
 </ul>
 </body>
 </html>
