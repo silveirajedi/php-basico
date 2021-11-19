@@ -18,6 +18,7 @@
     <li><a href="007.php">007 - Estruturas de Repetição</a></li>
     <li><a href="008.php">008 - Closures e Generators</a></li>
     <li><a href="009.php">009 - Require e Include de Arquivos</a></li>
+    <li><a href="010.php">010 - Funções</a></li>
 </ul>
 </body>
 </html>

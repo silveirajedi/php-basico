@@ -43,6 +43,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 007 - Estruturas de Repetição
 - 008 - Closures e Generators
 - 009 - Require e Include de Arquivos
+- 010 - Funções
 
 ### Credits
 
