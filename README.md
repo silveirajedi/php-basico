@@ -44,6 +44,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 008 - Closures e Generators
 - 009 - Require e Include de Arquivos
 - 010 - Funções
+- 011 - Constantes
 
 ### Credits
 

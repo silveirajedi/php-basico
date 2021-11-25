@@ -19,6 +19,8 @@
     <li><a href="008.php">008 - Closures e Generators</a></li>
     <li><a href="009.php">009 - Require e Include de Arquivos</a></li>
     <li><a href="010.php">010 - Funções</a></li>
+    <li><a href="011.php">011 - Constantes</a></li>
+
 </ul>
 </body>
 </html>
