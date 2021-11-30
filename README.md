@@ -45,6 +45,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 009 - Require e Include de Arquivos
 - 010 - Funções
 - 011 - Constantes
+- 012 - Manipulação de String
 
 ### Credits
 

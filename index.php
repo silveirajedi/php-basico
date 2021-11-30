@@ -20,6 +20,7 @@
     <li><a href="009.php">009 - Require e Include de Arquivos</a></li>
     <li><a href="010.php">010 - Funções</a></li>
     <li><a href="011.php">011 - Constantes</a></li>
+    <li><a href="012.php">012 - Manipulação de String</a></li>
 
 </ul>
 </body>
