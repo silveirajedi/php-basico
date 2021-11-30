@@ -50,6 +50,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 ### Credits
 
 - [Leandro Silveira](https://github.com/silveirajedi) (Developer)
+- [Fatec Itapira](https://github.com/f278ti) (Developer)
 
 ### License
 
