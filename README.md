@@ -16,11 +16,6 @@ docker pull php:7.4-apache
 docker container run -d -p 80:80 --name phpbasico -v $(pwd):/var/www/html php:7.4-apache
 ```
 
-- Executar o container em modo interativo
-```bash
-docker container run -it -p 80:80 --name phpbasico -v $(pwd):/var/www/html php:7.4-apache /bin/bash
-```
-
 - Instalar o Xdebug
 ```bash
 pecl install xdebug
@@ -45,7 +40,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 009 - Require e Include de Arquivos
 - 010 - Funções
 - 011 - Constantes
-- 012 - Manipulação de String
+- 013 - Manipulação de Arrays
 
 ### Credits
 
