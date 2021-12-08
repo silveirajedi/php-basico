@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>012 - Manipulação de String</title>
+    <title>013 - Manipulação de Arrays</title>
 </head>
 <body style="font-size: 1.1em">
 <div style="background-color: gray;"><h2>manipulação</h2></div>
@@ -100,12 +100,61 @@ var_dump([
     array_values($association),
 ]);
 
+$personagens = [
+        "Primeiro" => "Moisés",
+        "Segundo" => "Noé",
+        "Terceiro" => "Abraão",
+        "Quardo" => "José"
+        ];
 
+if (in_array("Noé", $personagens)) {
+    echo "Personagem encontrado!";
+} else {
+    echo "Personagem não encontrado!";
+}
+
+$arrayToString = implode(", ", $personagens);
+echo "<p>Os personagens da bíblia são: {$arrayToString}</p>";
+
+var_dump(explode(", ", $arrayToString));
 
 ?>
 
 <div style="background-color: gray;"><h2>Exemplo Real</h2></div>
 <?php
+
+$profile = [
+    "name" => "Leandro",
+    "company" => "Fratelli",
+    "mail" => "contato@fratelliti.com.br"
+];
+
+$template = <<<TPL
+    <article>
+    <h1>{{name}}</h1>
+    <p>{{company}}<br>
+    <a href="mailto:{{mail}}" title="Enviar e-mail para {{name}}">Enviar E-mail</a>
+    </p>
+    </article>
+TPL;
+
+echo $template;
+
+echo str_replace(
+    array_keys($profile), array_values($profile), $template
+);
+
+$replaces = "{{" . implode("}}&{{", array_keys($profile)) . "}}";
+
+echo $replaces;
+
+var_dump(explode("&", $replaces));
+
+echo str_replace(
+    explode("&", $replaces),
+    array_values($profile),
+    $template
+);
 
 
 
