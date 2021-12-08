@@ -41,6 +41,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 010 - Funções
 - 011 - Constantes
 - 013 - Manipulação de Arrays
+- 014 - Manipulação de Objetos
 
 ### Credits
 
