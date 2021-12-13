@@ -42,7 +42,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 011 - Constantes
 - 013 - Manipulação de Arrays
 - 014 - Manipulação de Objetos
-- 014 - Manipulação de Datas
+- 015 - Manipulação de Datas
 
 ### Credits
 
