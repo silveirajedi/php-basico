@@ -43,6 +43,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 013 - Manipulação de Arrays
 - 014 - Manipulação de Objetos
 - 015 - Manipulação de Datas
+- 016 - Manipulação/Gestão de Arquivos e Diretorios
 
 ### Credits
 
