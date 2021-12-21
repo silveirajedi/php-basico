@@ -40,11 +40,13 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 009 - Require e Include de Arquivos
 - 010 - Funções
 - 011 - Constantes
+- 012 - Manipulação de String
 - 013 - Manipulação de Arrays
 - 014 - Manipulação de Objetos
 - 015 - Manipulação de Datas
 - 016 - Manipulação/Gestão de Arquivos e Diretorios
 - 017 - Formulários e Filtros
+- 018 - Upload de Arquivos
 
 ### Credits
 
