@@ -27,6 +27,8 @@
     <li><a href="016.php">016 - Manipulação/Gestão de Arquivos e Diretorios</a></li>
     <li><a href="017.php">017 - Formulários e Filtros</a></li>
     <li><a href="018.php">018 - Upload de Arquivos</a></li>
+    <li><a href="019.php">019 - Interagindo com URL</a></li>
+
 
 </ul>
 </body>
