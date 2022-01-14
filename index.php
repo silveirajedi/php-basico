@@ -9,6 +9,7 @@
 </head>
 <body style="font-size: 1.3em">
 <ul>
+    <li><a href="000.php">000 - Informações PHP</a></li>
     <li><a href="001.php">001 - Introdução a estrutura do PHP</a></li>
     <li><a href="002.php">002 - Comandos Saídas</a></li>
     <li><a href="003.php">003 - Tipos Variáveis</a></li>
@@ -28,6 +29,8 @@
     <li><a href="017.php">017 - Formulários e Filtros</a></li>
     <li><a href="018.php">018 - Upload de Arquivos</a></li>
     <li><a href="019.php">019 - Interagindo com URL</a></li>
+    <li><a href="020.php"> 020 - Cookies | Session</a></li>
+
 
 
 </ul>

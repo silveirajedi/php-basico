@@ -29,6 +29,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 ```
 ### Glossário:
 
+- 000 - Informações PHP
 - 001 - Introdução a estrutura do PHP
 - 002 - Comandos Saídas
 - 003 - Tipos Variáveis
@@ -48,6 +49,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 - 017 - Formulários e Filtros
 - 018 - Upload de Arquivos
 - 019 - Interagindo com URL
+- 020 - Cookies | Session
 
 ### Credits
 
