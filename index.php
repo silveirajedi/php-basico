@@ -29,11 +29,12 @@
     <li><a href="017.php">017 - Formulários e Filtros</a></li>
     <li><a href="018.php">018 - Upload de Arquivos</a></li>
     <li><a href="019.php">019 - Interagindo com URL</a></li>
-    <li><a href="020.php"> 020 - Cookies | Session</a></li>
+    <li><a href="020.php">020 - Cookies | Session</a></li>
 </ul>
 
 <ul>
     <li><a href="Exemplos/Calendario/">Calendário</a></li>
+    <li><a href="Exemplos/Tarefas/">Tarefas</a></li>
 </ul>
 </body>
 </html>

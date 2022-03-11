@@ -54,6 +54,7 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 ### Exemplos:
 
 - Calendário
+- Tarefas
 
 ### Credits
 
