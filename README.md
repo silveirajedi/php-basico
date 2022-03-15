@@ -1,6 +1,6 @@
 # php - Básico
 
-###### Códigos sobre o básico de PHP
+###### Códigos sobre o básico de PHP 
 
 ### Criando o Ambiente com Docker:
 
