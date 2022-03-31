@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!doctype html>
 <html lang="pt-br">
 <head>
@@ -48,10 +47,18 @@
 <table>
     <tr>
         <th>Tarefas</th>
+        <th>Descição</th>
+        <th>Prazo</th>
+        <th>Prioridae</th>
+        <th>Concluida</th>
     </tr>
     <?php foreach ($lista_tarefas as $tarefa) : ?>
         <tr>
-            <td><?= $tarefa; ?></td>
+            <td><?= $tarefa['nome']; ?></td>
+            <td><?= $tarefa['descricao'] ?></td>
+            <td><?= $tarefa['prazo'] ?></td>
+            <td><?= $tarefa['prioridade'] ?></td>
+            <td><?= $tarefa['concluida']?> </td>
         </tr>
     <?php endforeach; ?>
 
