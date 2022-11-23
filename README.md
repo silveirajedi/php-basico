@@ -54,12 +54,10 @@ mv /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
 ### Exemplos:
 
 - Calendário
-- Tarefas
 
 ### Credits
 
 - [Leandro Silveira](https://github.com/silveirajedi) (Developer)
-- [Fatec de Itapira](https://github.com/f278ti) (Developer)
 
 ### License
 

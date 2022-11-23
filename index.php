@@ -8,6 +8,9 @@
     <title>php - Básico</title>
 </head>
 <body style="font-size: 1.3em">
+
+<h3>Práticas</h3>
+
 <ul>
     <li><a href="000.php">000 - Informações PHP</a></li>
     <li><a href="001.php">001 - Introdução a estrutura do PHP</a></li>
@@ -32,9 +35,10 @@
     <li><a href="020.php">020 - Cookies | Session</a></li>
 </ul>
 
+<h3>Exemplos</h3>
+
 <ul>
     <li><a href="Exemplos/Calendario/">Calendário</a></li>
-    <li><a href="Exemplos/Tarefas/">Tarefas</a></li>
 </ul>
 </body>
 </html>
