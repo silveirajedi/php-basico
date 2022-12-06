@@ -44,6 +44,7 @@ var_dump([
     "date +10days" => date(DATE_BR, strtotime("+10days")),
     "date -10days" => date(DATE_BR, strtotime("-10days")),
     "date +1year" => date(DATE_BR, strtotime("+1year")),
+    "date +5minutos" => date(DATE_BR, strtotime("+5minutes"))
 ]);
 
 $format = "%d/%m/%Y %Hh%M minutos";
@@ -96,12 +97,13 @@ $dateTime = new DateTime("now");
 $dateTime->sub($dateInterval);
 var_dump($dateTime);
 
-$birth = new DateTime(date("Y") . "-12-15");
+$birth = new DateTime(date("Y") . "-03-21");
 $today = new DateTime("now");
 
 $diff = $today->diff($birth);
 
-var_dump($diff);
+var_dump($birth,
+    $diff);
 
 if ($diff->invert) {
     echo "<p> Já se passaram {$diff->days} desde seu aniversário";
@@ -124,7 +126,7 @@ var_dump([
 
 $start = new DateTime("now");
 $interval = new DateInterval("P1M");
-$end = new DateTime ("2022-12-01");
+$end = new DateTime ("2023-12-01");
 
 $period = new DatePeriod($start, $interval, $end);
 

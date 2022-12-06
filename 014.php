@@ -43,14 +43,14 @@ var_dump($company);
 <div style="background-color: gray;"><h2>analises</h2></div>
 <?php
 
-$date = new DateTime();
-
 var_dump([
     "class" => get_class($company),
     "methods" => get_class_methods($company),
     "vars" => get_object_vars($company),
     "parent" => get_parent_class($company)
 ]);
+
+$date = new DateTime();
 
 var_dump([
     "class" => get_class($date),

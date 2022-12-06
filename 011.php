@@ -11,7 +11,7 @@
 <div style="background-color: gray;"><h2>constantes</h2></div>
 <?php
 
-define("COMPANY", "Fraelli TI"); // fica em runtime da execução
+define("COMPANY", "Fraelli TI"); // fica em runtime da execução (enquanto estou rodando a aplicação ele interpreta o código)
 const AUTHOR = "Leandro"; // fica antes da execução do código
 
 $active = true;
