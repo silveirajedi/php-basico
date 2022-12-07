@@ -61,9 +61,6 @@ if ($_FILES && !empty($_FILES['file']['name'])) {
     }
 }
 
-
-
-
 include __DIR__ . "/018/form.php";
 
 ?>
