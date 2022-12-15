@@ -47,10 +47,6 @@ var_dump([
     "date +5minutos" => date(DATE_BR, strtotime("+5minutes"))
 ]);
 
-$format = "%d/%m/%Y %Hh%M minutos";
-echo "<p>A data de hoje é ", strftime($format),"</p>";
-echo strftime("<p>Hoje é dia %d do %m de %Y</p>");
-
 ?>
 
 <div style="background-color: gray;"><h2>DateTime Class</h2></div>

@@ -82,7 +82,7 @@ var_dump(
 );
 
 $filterForm = [
-    "name" => FILTER_SANITIZE_STRIPPED,
+    "name" => FILTER_SANITIZE_FULL_SPECIAL_CHARS,
     "email" => FILTER_VALIDATE_EMAIL
 ];
 

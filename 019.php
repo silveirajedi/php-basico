@@ -47,7 +47,7 @@ $dataFilter = http_build_query([
 
 echo "<p><a href='019.php?{$dataFilter}'>Data Filter</a></p>";
 
-$dataUrl = filter_input_array(INPUT_GET, FILTER_SANITIZE_STRIPPED);
+$dataUrl = filter_input_array(INPUT_GET, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 if ($dataUrl) {
     if (in_array("", $dataUrl)) {
         echo "<p style='color: orange''>Faltam dados</p>";
@@ -76,11 +76,11 @@ parse_str($dataFilter, $arrDataFilter);
 var_dump($arrDataFilter);
 
 $dataPreFilter = [
-    "name" => FILTER_SANITIZE_STRING,
-    "company" => FILTER_SANITIZE_STRING,
+    "name" => FILTER_UNSAFE_RAW,
+    "company" => FILTER_UNSAFE_RAW,
     "mail" => FILTER_VALIDATE_EMAIL,
     "site" => FILTER_VALIDATE_URL,
-    "script" => FILTER_SANITIZE_STRING
+    "script" => FILTER_UNSAFE_RAW
 ];
 
 var_dump(filter_var_array($arrDataFilter, $dataPreFilter));

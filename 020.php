@@ -14,7 +14,7 @@
 setcookie("phpbasico", "Esse é o meu cookie", time() + 10);
 //setcookie("phpbasico", null, time() - 60); (removendo o cookie)
 
-$cookie = filter_input_array(INPUT_COOKIE, FILTER_SANITIZE_STRIPPED);
+$cookie = filter_input_array(INPUT_COOKIE, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
 var_dump(
     $_COOKIE,
@@ -37,7 +37,7 @@ setcookie(
     true //somente acessado por https
 );
 
-$login = filter_input(INPUT_COOKIE, "fratellilogin", FILTER_SANITIZE_STRIPPED);
+$login = filter_input(INPUT_COOKIE, "fratellilogin", FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 if ($login){
     var_dump($login);
     var_dump($user);
