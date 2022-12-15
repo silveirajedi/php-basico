@@ -13,7 +13,7 @@ docker pull php:8.1-apache
 
 - Executar o container em modo foreground
 ```bash
-docker container run -d -p 80:80 --name phpoo -v $(pwd):/var/www/html php:8.1-apache
+docker container run -d -p 80:80 --name phpbasico -v $(pwd):/var/www/html php:8.1-apache
 ```
 
 - Instalar o Xdebug
